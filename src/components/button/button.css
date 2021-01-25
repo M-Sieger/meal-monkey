@@ -1,8 +1,17 @@
 .btn {
   border-radius: 20px;
   font-size: 1.2rem;
+  color: orange;
+  background: #ffffff;
+  border: solid 2px orange;
+  padding: 10px 50px;
+}
+
+.btn-filled {
+  border-radius: 20px;
+  font-size: 1.2rem;
   color: white;
-  background: #016b6b;
-  border: none;
+  background: #f0660a;
+
   padding: 10px 20px;
 }
