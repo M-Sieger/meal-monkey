@@ -4,9 +4,9 @@
 
 .card-body {
   background: #ffffff;
-
   align-items: center;
   text-align: center;
+  font-weight: 100;
 }
 
 .card-img-top {
@@ -19,4 +19,5 @@
 
 .card-text {
   font-weight: 700;
+  margin-top: 0;
 }
