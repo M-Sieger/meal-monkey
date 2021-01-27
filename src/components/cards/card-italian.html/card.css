@@ -1,0 +1,23 @@
+.card {
+  max-width: 88px;
+}
+
+.card-body {
+  background: #ffffff;
+  align-items: center;
+  text-align: center;
+  font-weight: 100;
+}
+
+.card-img-top {
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
+  width: 88px;
+  height: 88px;
+}
+
+.card-text {
+  font-weight: 700;
+  margin-top: 0;
+}
