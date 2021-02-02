@@ -7,50 +7,31 @@
              <input type="submit" />
         </form>*/
 
+export function createRegisterForm() {
+  const form = document.createElement("form");
+  form.className = "form";
 
-export function createRegisterForm(){
-        const form = document.createElement("form");
-        form.className = "form";
+  const button = document.createElement("button");
+  button.innerText = "Register";
+  button.className = button;
 
-        
-        const button = document.createElement ("button");
-        button.innerText = "Register";
-        
-        button.addEventListener("click", register);
-        
-        
-        
-        function register() {
-                alert("Registered");
-        }
-        
-        
-        const title = document.createElement("h2");
-        title.innerText = "Reset Passwort";
+  function register() {
+    alert("Registered");
+  }
 
-        const text = document.createElement("p");
-        title.innerText = "Please enter your email to reveive a link to create an new password via email";
+  button.addEventListener("click", register);
 
-        
-        const input = document.createElement("input");
-        input.setAttribute("type", "text");
-        input.setAttribute("placeholder", "email");
+  const title = document.createElement("h2");
+  title.innerText = "Reset Passwort";
 
+  const text = document.createElement("p");
+  text.innerText =
+    "Please enter your email to reveive a link to create an new password via email";
 
-        
- 
-       
+  const input = document.createElement("input");
+  input.type = "text";
+  input.placeholder = "Email";
+  input.className = "input";
 
-
-
-return button;
-
+  return form;
 }
-
-
-
-
-
-
-
-
